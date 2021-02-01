@@ -4,7 +4,7 @@
 
 機器手臂於工作站內進行作業時，不允許任何人員進入。只要有人員闖入，機器手臂必須透過機械互鎖（Interlock）的方式，不經過CPU，而是直接由安全系統ESC（Electronic Safety Circuit）緊急停止。
 
-詳細規定請參考 [安全檢查表](./Safety.html)
+詳細安全規範請參考 [安全檢查表](./Safety.html)
 
 # 機器手臂基本介紹
 
