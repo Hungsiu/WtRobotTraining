@@ -162,6 +162,27 @@ Delta機器人速度非常快，常用在工業的檢拾及包裝作業
 
 ![Image](./img/A1Rotate.gif)
 
+- A2旋轉軸位置
+
+![Image](./img/A2Rotate.gif)
+
+- A3旋轉軸位置
+
+![Image](./img/A3Rotate.gif)
+
+- A4旋轉軸位置
+
+![Image](./img/A4Rotate.gif)
+
+- A5旋轉軸位置
+
+![Image](./img/A5Rotate.gif)
+
+- A6旋轉軸位置
+
+![Image](./img/A6Rotate.gif)
+
+<br/>
 
 ### 座標
 
