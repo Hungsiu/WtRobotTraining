@@ -190,7 +190,7 @@ Delta機器人速度非常快，常用在工業的檢拾及包裝作業
 
 ⑭SmartHMI狀態
 
--- 狀態列
+- 狀態列
 
 ![Image](./img/SmartPAD-StatusBar.jpg)
 
