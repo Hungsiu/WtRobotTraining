@@ -158,7 +158,7 @@ Delta機器人速度非常快，常用在工業的檢拾及包裝作業
 
 ⑩右側拱頂（左手握）
 
-- SmartPAD 主畫面
+- 主畫面
 
 ![Image](./img/SmartPAD-Main.jpg)
 
@@ -189,6 +189,32 @@ Delta機器人速度非常快，常用在工業的檢拾及包裝作業
 ⑬權限切換按鈕
 
 ⑭SmartHMI狀態
+
+-- 狀態列
+
+![Image](./img/SmartPAD-StatusBar.jpg)
+
+①主選單按鈕：開啟∕關閉主選單
+
+②控制器名稱：顯示幕前控制器的名稱
+
+③程式名稱：顯示目前選擇∕執行的程式名稱
+
+④Submit interpreter（暫時還想不到怎麼翻譯）
+
+⑤Driver狀態：
+
+⑥Robot interpreter
+
+⑦操作模式狀態：顯示目前操作的模式（T1、T2、Aut、Ext）
+
+⑧速度狀態圖示：顯示程式∕吋動速度
+
+⑨Program run mode
+
+⑩Tool∕Base狀態：顯示目前使用的Tool與Base
+
+⑪Incremental jogging
 
 <br/>
 
@@ -237,7 +263,21 @@ Delta機器人速度非常快，常用在工業的檢拾及包裝作業
 
 ![Image](./img/RobotCoordinateSystem.jpg)
 
+### 吋動方式
+
+![Image](./img/Jog-XYZ.jpg)
+
 ### 6D滑鼠使用方式
+
+- 6D滑鼠方向
+
+![Image](./img/6DMouseVector.jpg)
+
+- 6D滑鼠旋轉
+
+![Image](./img/6DMouseRotation.jpg)
+
+- 6D滑鼠與Tool的關係
 
 ![Image](./img/6DMouse&RobotTool.jpg)
 
