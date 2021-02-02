@@ -1,6 +1,6 @@
 # 卓智機器人KUKA教育訓練文件
 
-卓智機器人 [官方網站](www.wtech.com.tw)
+卓智機器人 [官方網站](http://www.wtech.com.tw)
 
 ## 安全檢查
 
