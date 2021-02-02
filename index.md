@@ -24,6 +24,12 @@
 
 ### 六軸機器手臂
 
+機器手臂是能模仿人類手臂功能並可完成各種作業的自動控制設備，構造上由機械主體、控制器、伺服機構與感測器組成，有多個關節連結並允許在平面或三度空間進行線性移動
+
+自從機器手臂技術開始發展後，已成功應用於許多工業危險之組裝、噴漆、焊接、高溫鑄緞等繁重工作，也能發現在商業、農業、醫療、娛樂都有機器手臂的應用
+
+[維基百科](https://reurl.cc/7yDp25)
+
 - 機器手臂系統
 
 ![Image](./img/RobotSystem.jpg)
@@ -35,8 +41,6 @@
 ③教導器（SmartPAD）
 
 ④連接線（動力線、訊號線等）
-
-<br/>
 
 - 機器手臂結構
 
@@ -67,6 +71,8 @@ SCARA是**選擇順應性裝配機器手臂**（Selective Compliance Assembly Ro
 [維基百科](https://reurl.cc/Gdxx1v)
 
 [KUKA SCARA](https://reurl.cc/E2rrAg)
+
+<br/>
 
 ### DELTA機器手臂
 
@@ -151,6 +157,11 @@ Delta機器人速度非常快，常用在工業的檢拾及包裝作業
 - A1~A6軸
 
 ![Image](./img/RobotAxis.jpg)
+
+- A1旋轉軸位置
+
+![Image](./img/A1Rotate.gif)
+
 
 ### 座標
 
