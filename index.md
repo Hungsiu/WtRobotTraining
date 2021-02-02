@@ -8,6 +8,8 @@
 
  [官方網站](http://www.wtech.com.tw)
 
+<br/>
+
 ## 安全檢查
 
 機器手臂雖為工具，但仍具備危險性，因此必須遵從標準作業流程進行操作
@@ -16,11 +18,13 @@
 
 詳細安全規範請參考 [安全檢查表](./Safety.html)
 
+<br/>
+
 ## 機器手臂基本介紹
 
 ### 六軸機器手臂
 
-- 機器手臂本體、教導器與控制器
+- 機器手臂系統
 
 ![Image](./img/RobotSystem.jpg)
 
@@ -32,20 +36,55 @@
 
 ④連接線（動力線、訊號線等）
 
+<br/>
+
+- 機器手臂結構
+
+![Image](./img/RobotStruct.jpg)
+
+①底座
+
+②轉盤
+
+③平衡系統
+
+④連結臂
+
+④手臂
+
+⑤腕關節
+
+<br/>
+
 ### SCARA機器手臂
+
+SCARA是**選擇順應性裝配機器手臂**（Selective Compliance Assembly Robot Arm）或**選擇順應性關節機器手臂**（Selective Compliance Articulated Robot Arm）的簡稱，也會翻譯為**水平多軸機器手臂**
+
+相較於直角坐標系的機器手臂，SCARA的反應會比較快、設備也會比較乾淨。也因為需要的佔地面積比較小，所以能更靈活的安裝
 
 ![Image](./img/ScaraRobot.jpg)
 
+[維基百科](https://reurl.cc/Gdxx1v)
+
+[KUKA SCARA](https://reurl.cc/E2rrAg)
+
 ### DELTA機器手臂
+
+Delta機器人又稱三角式機器人，由三個機械臂連接機器人上的萬向接頭以及末端效應器（End Effector），主要設計特點是在機械臂上使用平行四邊形結構
+
+Delta機器人速度非常快，常用在工業的檢拾及包裝作業
 
 ![Image](./img/DeltaRobot.jpg)
 
+[維基百科](https://reurl.cc/e933Rb)
+
+<br/>
 
 ### 機器手臂教導器 SmartPAD
 
-- SmartPAD 正面
+- SmartPAD-2 正面
 
-    ![Image](./img/SmartPAD-front.jpg)
+![Image](./img/SmartPAD-front.jpg)
 
 ①USB：可將程式透過隨身碟上傳到控制器
 
@@ -79,9 +118,9 @@
 
 ⑯主選單鍵：開啟∕關閉主選單
 
-- SmartPAD 背面
+- SmartPAD-2 背面
 
-    ![Image](./img/SmartPAD-back.jpg)
+![Image](./img/SmartPAD-back.jpg)
 
 ①背帶固定扣（選配）
 
@@ -105,13 +144,13 @@
 
 - SmartPAD 主畫面
 
-    ![Image](./img/SmartPAD-Main.jpg)
+![Image](./img/SmartPAD-Main.jpg)
 
 ### 軸向
 
 - A1~A6軸
 
-    ![Image](./img/RobotAxis.jpg)
+![Image](./img/RobotAxis.jpg)
 
 ### 座標
 
