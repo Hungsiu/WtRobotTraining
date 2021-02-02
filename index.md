@@ -60,7 +60,7 @@
 
 - 機器手臂骨架
 
-![Image](./img/RobotBOne.jpg)
+![Image](./img/RobotBone.jpg)
 
 ①機器人實體
 
