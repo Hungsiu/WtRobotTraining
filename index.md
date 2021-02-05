@@ -1,5 +1,7 @@
 # 卓智機器人KUKA教育訓練文件
 
+## 公司簡介
+
 卓智機器人於2014.05.02創立於DAKUO（高雄市數位內容創意中心），公司以機器手臂自動化系統整合工程為主業
 
 卓智所服務的領域涵蓋各種產業，包含成功商轉的機器手臂手沖咖啡，電子廠晶圓檢測、搬運、PCB上下料，工業電腦主機板檢測，傳統產業的沖壓機及導角機上下料，CNC自動上下料，微電子開關自動化檢等。所執行之各項工程均能達成穩定、快速投產的目標，大幅提高產能，為客戶創造更高的營收與價值
@@ -280,6 +282,11 @@ Delta機器人速度非常快，常用在工業的檢拾及包裝作業
 - 6D滑鼠與Tool的關係
 
 ![Image](./img/6DMouse&RobotTool.jpg)
+
+<br/>
+
+教學影片
+<iframe width="480" height="270" src="https://www.youtube-nocookie.com/embed/3UZCKB1lnW4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br/>
 
