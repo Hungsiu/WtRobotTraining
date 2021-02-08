@@ -34,6 +34,8 @@
 
 # KUKA程式語言
 
+KUKA Robot Language（KRL）是一種專有、類似Pascal的程式語言，用於控制KUKA機器手臂
+
 [Read more...](./03_Syntax.html)
 
 <br/>
