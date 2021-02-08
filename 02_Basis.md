@@ -2,7 +2,7 @@
 
 - 機器手臂系統
 
-![Image](./img/RobotSystem.jpg)
+![Image](./img/Basis/RobotSystem.jpg)
 
 ①機器人本體
 
@@ -14,7 +14,7 @@
 
 - 機器手臂結構
 
-![Image](./img/RobotStruct.jpg)
+![Image](./img/Basis/RobotStruct.jpg)
 
 ①底座
 
@@ -30,7 +30,7 @@
 
 - 機器手臂骨架
 
-![Image](./img/RobotBone.jpg)
+![Image](./img/Basis/RobotBone.jpg)
 
 ①機器人實體
 
@@ -44,7 +44,7 @@
 
 - SmartPAD-2 正面
 
-![Image](./img/SmartPAD-front.jpg)
+![Image](./img/Basis/SmartPAD-front.jpg)
 
 ①USB：可將程式透過隨身碟上傳到控制器
 
@@ -80,7 +80,7 @@
 
 - SmartPAD-2 背面
 
-![Image](./img/SmartPAD-back.jpg)
+![Image](./img/Basis/SmartPAD-back.jpg)
 
 ①背帶固定扣（選配）
 
@@ -104,7 +104,7 @@
 
 - 主畫面
 
-![Image](./img/SmartPAD-Main.jpg)
+![Image](./img/Basis/SmartPAD-Main.jpg)
 
 ①狀態列
 
@@ -136,7 +136,7 @@
 
 - 狀態列
 
-![Image](./img/SmartPAD-StatusBar.jpg)
+![Image](./img/Basis/SmartPAD-StatusBar.jpg)
 
 ①主選單按鈕：開啟∕關閉主選單
 
@@ -166,31 +166,31 @@
 
 - A1~A6軸
 
-![Image](./img/RobotAxis.jpg)
+![Image](./img/Basis/RobotAxis.jpg)
 
 - A1旋轉軸位置
 
-![Image](./img/A1_Rotate.gif)
+![Image](./img/Basis/A1_Rotate.gif)
 
 - A2旋轉軸位置
 
-![Image](./img/A2_Rotate.gif)
+![Image](./img/Basis/A2_Rotate.gif)
 
 - A3旋轉軸位置
 
-![Image](./img/A3_Rotate.gif)
+![Image](./img/Basis/A3_Rotate.gif)
 
 - A4旋轉軸位置
 
-![Image](./img/A4_Rotate.gif)
+![Image](./img/Basis/A4_Rotate.gif)
 
 - A5旋轉軸位置
 
-![Image](./img/A5_Rotate.gif)
+![Image](./img/Basis/A5_Rotate.gif)
 
 - A6旋轉軸位置
 
-![Image](./img/A6_Rotate.gif)
+![Image](./img/Basis/A6_Rotate.gif)
 
 <br/>
 
@@ -205,25 +205,25 @@
 #### TOOL座標
     ......
 
-![Image](./img/RobotCoordinateSystem.jpg)
+![Image](./img/Basis/RobotCoordinateSystem.jpg)
 
 ### 吋動方式
 
-![Image](./img/Jog-XYZ.jpg)
+![Image](./img/Basis/Jog-XYZ.jpg)
 
 ### 6D滑鼠使用方式
 
 - 6D滑鼠方向
 
-![Image](./img/6DMouseVector.jpg)
+![Image](./img/Basis/6DMouseVector.jpg)
 
 - 6D滑鼠旋轉
 
-![Image](./img/6DMouseRotation.jpg)
+![Image](./img/Basis/6DMouseRotation.jpg)
 
 - 6D滑鼠與Tool的關係
 
-![Image](./img/6DMouse&RobotTool.jpg)
+![Image](./img/Basis/6DMouse&RobotTool.jpg)
 
 <br/>
 
