@@ -39,7 +39,7 @@
 - 輸入試用帳號（ID）
 - 啟動授權（Active）
 
-    ![Image](./img/RobotSimActive.jpg)
+    ![Image](./img/Sim/RobotSimActive.jpg)
 
 - 參考影片
 <iframe width="480" height="270" src="https://www.youtube.com/embed/xv4v_fOwAC0?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
