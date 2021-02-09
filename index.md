@@ -32,7 +32,7 @@
 
 <br/>
 
-# KUKA程式語言
+## KUKA程式語言
 
 KUKA Robot Language（KRL）是一種專有、類似Pascal的程式語言，用於控制KUKA機器手臂
 
@@ -40,7 +40,7 @@ KUKA Robot Language（KRL）是一種專有、類似Pascal的程式語言，用�
 
 <br/>
 
-# RobotSim模擬軟體
+## RobotSim模擬軟體
 
 RobotSim是卓智機器人所開發的機器手臂模擬軟體
 
