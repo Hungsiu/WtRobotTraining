@@ -215,6 +215,10 @@
 
 ### 吋動方式
 
+吋動有軸(Axis)、世界(World)、Base與Tool四種座標參考可以移動
+
+軸座標是A1~A6的單軸移動，其餘三種皆是XYZ與ABC的操作方式
+
 ![Image](./img/Basis/Jog-XYZ.jpg)
 
 ### 6D滑鼠使用方式
