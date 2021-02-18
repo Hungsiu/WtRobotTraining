@@ -144,11 +144,11 @@
 
 ③程式名稱：顯示目前選擇∕執行的程式名稱
 
-④Submit interpreter（暫時還想不到怎麼翻譯）
+④Submit interpreter：顯示背景程式的狀態（像是sps） ~~不然也不知道該怎麼翻~~
 
-⑤Driver狀態：
+⑤Driver狀態：顯示目前機器手臂的馬達是否可以做動。點選後可在I與O之間切換
 
-⑥Robot interpreter
+⑥Robot interpreter：顯示目前選取的程式的狀態（未選取、執行中、暫停、未執行、執行完畢）
 
 ⑦操作模式狀態：顯示目前操作的模式（T1、T2、Aut、Ext）
 
@@ -212,6 +212,8 @@
     ......
 
 ![Image](./img/Basis/RobotCoordinateSystem.jpg)
+
+<br/>
 
 ### 吋動方式
 
