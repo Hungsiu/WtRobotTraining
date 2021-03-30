@@ -12,6 +12,45 @@
 
 # RobotSim 模擬軟體
 
+RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境中
+
+## RobotSim 下載、安裝、試用
+
+### 要準備的東西
+
+- RobotSim 執行環境 Unity [到這裡下載](https://store.unity.com/#plans-individual)
+- RobotSim 軟體 （目前已不支援試用版） [參考網頁](http://www.wtech.com.tw/robotsim/download)
+
+
+### 安裝RobotSim
+
+    一.啟動unity
+    二.建立新專案
+    三.匯入RobotSim安裝包
+
+- 建立unity專案
+
+![Image](./img/Sim/CreateUnityProject.gif)
+
+- 匯入RobotSim
+
+
+### 註冊
+
+- 開啟Unity選單列的RobotSim/License視窗
+- 輸入試用帳號（ID）
+- 啟動授權（Active）
+
+    ![Image](./img/Sim/RobotSimActive.jpg)
+
+- 參考影片
+<iframe width="480" height="270" src="https://www.youtube.com/embed/xv4v_fOwAC0?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 其他資源
+- [討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4)
+
+- 機器手臂模型們 [SimModel](http://www.wtech.com.tw/robotsim/simmodel)
+
 ## 線上模擬環境
 
 我們已經把模擬環境放在網站上了
@@ -31,24 +70,6 @@
         1.PTP
         2.LIN
         3.CIRC
-
-## RobotSim 下載、安裝、試用
-- RobotSim 執行環境 Unity [下載](https://store.unity.com/#plans-individual)
-- RobotSim 軟體 [下載](http://www.wtech.com.tw/robotsim/download)
-- 開啟Unity選單列的RobotSim/License視窗
-- 輸入試用帳號（ID）
-- 啟動授權（Active）
-
-    ![Image](./img/Sim/RobotSimActive.jpg)
-
-- 參考影片
-<iframe width="480" height="270" src="https://www.youtube.com/embed/xv4v_fOwAC0?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### 其他資源
-- [討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4)
-
-- 機器手臂模型們 [SimModel](http://www.wtech.com.tw/robotsim/simmodel)
-
 
 ## RobotSim環境與基本操作
 
