@@ -6,7 +6,7 @@
 - 把機器手臂放在滑軌上，讓運作空間更大
 - 規劃一條生產線
 - 設計一套自動化流程，產生各種機器手臂的程式
-- 你還想做什麼？ [加入RobotSim討論區一起討論吧](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4)
+- 你還想做什麼？ [加入RobotSim討論區一起討論吧](http://forum.wtech.com.tw)
 
 <br/>
 
