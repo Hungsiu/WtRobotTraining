@@ -19,8 +19,9 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 ### 要準備的東西
 
 - RobotSim 執行環境 Unity [到這裡下載](https://store.unity.com/#plans-individual)
-- RobotSim 軟體 （目前已不支援試用版） [參考網頁](http://www.wtech.com.tw/robotsim/download)
+- RobotSim 軟體 [參考網頁](http://www.wtech.com.tw/robotsim/download)
 
+※ RobotSim目前已不支援試用版，若有相關需求請來信至 lin@wtech.com.tw
 
 ### 安裝RobotSim
 
