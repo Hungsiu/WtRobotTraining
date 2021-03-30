@@ -26,7 +26,12 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 
     一.啟動unity
     二.建立新專案
+        1.輸入專案名稱
+        2.選擇存檔路徑
     三.匯入RobotSim安裝包
+        1.在Project欄位的Assets區塊點擊右鍵
+        2.選擇Import Package/Custom package...
+        3.選擇RobotSim的unitypackage檔案
 
 - 建立unity專案
 
@@ -36,23 +41,38 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 
 ![Image](./img/Sim/ImportRobotSim.gif)
 
-- 匯入手臂、建立場景
-
-![Image](./img/Sim/ImportRobotCreateScene.gif)
-
 ### 註冊
 
     一.開啟Unity選單列的RobotSim/License視窗
     二.輸入試用帳號（ID）
     三.啟動授權（Active）
 
-
 ![Image](./img/Sim/RobotSimActive.jpg)
 
 - 參考影片
 <iframe width="480" height="270" src="https://www.youtube.com/embed/xv4v_fOwAC0?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+### 建立場景
+
+    一.匯入機器手臂模型包
+        1.在Project欄位的Assets區塊點擊右鍵
+        2.選擇Import Package/Custom package...
+        3.選擇機器手臂的unitypackage檔案
+    二.建立RobotSim場景
+        1.點選Unity選單列的RobotSim
+        2.選擇Create/Empty RobotSim Scene
+    三.加入機器手臂
+        1.開啟Unity選單列的RobotSim/Window/SimModel Window
+        2.點選要加入場景的機器手臂
+
+
+- 匯入手臂、建立場景
+
+![Image](./img/Sim/ImportRobotCreateScene.gif)
+
 ### 其他資源
+
 - [討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4)
 
 - 機器手臂模型們 [SimModel](http://www.wtech.com.tw/robotsim/simmodel)
