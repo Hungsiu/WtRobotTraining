@@ -34,6 +34,11 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 
 - 匯入RobotSim
 
+![Image](./img/Sim/ImportRobotSim.gif)
+
+- 匯入手臂、建立場景
+
+![Image](./img/Sim/ImportRobotCreateScene.gif)
 
 ### 註冊
 
