@@ -104,9 +104,32 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 
 ## RobotSim環境與操作
 
+在RobotSim中，共有5大功能分別設置在不同的視窗中，這些視窗可由Unity的選單列中的RobotSim/Window開啟
+
+分別是：
+
+- Robot Windows：可以查看、調整機器手臂的參數或狀態
+
+- Program Window：
+
+- Controller Window：
+
+- Export Window：可以調整程式輸出的相館設定
+
+- SimModel Window：可以在此視窗中挑選不同型號的機器手臂加入場景中
+
 ### 機器手臂的TOOL
 
 ### 移動機器手臂
+
+從"Hierarchy"清單或是"Scene"視窗中點選要移動的機器手臂，
+在"Scene"視窗上方便會顯示「Tool」、「Base」、「AXIS」、「Mouse」、「Points」與「Home」的按鈕，做為移動機器手臂的參考
+
+![Image](./img/Sim/RobotCoordinateReference.jpg)
+
+
+
+### 教點
 
 ## RobotSim程式設計
 
@@ -125,6 +148,9 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 #### CIRC
 
 ### 自訂的RobotSim程式
+
+
+## RobotSim範例－夾娃娃機
 
 -
 -
