@@ -124,7 +124,6 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 
 RobotSim2本質用於機器手臂的動作模擬，因此夾爪也是機器手臂的一環
 
-
 ### 移動機器手臂
 
 從"Hierarchy"清單或是"Scene"視窗中點選要移動的機器手臂，
