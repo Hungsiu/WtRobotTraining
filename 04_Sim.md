@@ -120,12 +120,29 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 
 ### 機器手臂的TOOL
 
+關於TOOL的介紹，在隔壁頁有詳細說明 [傳送門]((./02_Basis.html))
+
+RobotSim2的本質用於機器手臂的動作模擬，因此夾爪也是機器手臂的一環
+
+
 ### 移動機器手臂
 
 從"Hierarchy"清單或是"Scene"視窗中點選要移動的機器手臂，
 在"Scene"視窗上方便會顯示「Tool」、「Base」、「AXIS」、「Mouse」、「Points」與「Home」的按鈕，做為移動機器手臂的參考
 
 ![Image](./img/Sim/RobotCoordinateReference.jpg)
+
+- Tool
+
+- Base
+
+- AXIS
+
+- Mouse
+
+- Points：
+
+- Home：讓機器手臂立即回到Home點
 
 ### 教點
 
