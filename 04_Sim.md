@@ -156,6 +156,14 @@ RobotSim2的本質用於機器手臂的動作模擬，因此夾爪也是機器�
 
 ![image](./img/Sim/RobotMove_AXIS.gif)
 
+- Mouse移動
+
+![image](./img/Sim/RobotMove_Mouse.gif)
+
+- Points移動
+
+![image](./img/Sim/RobotMove_Points.gif)
+
 ### 教點
 
 ## RobotSim程式設計
