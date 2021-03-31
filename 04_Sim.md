@@ -132,15 +132,15 @@ RobotSim2的本質用於機器手臂的動作模擬，因此夾爪也是機器�
 
 ![Image](./img/Sim/RobotCoordinateReference.jpg)
 
-- Tool
+- Tool：
 
-- Base
+- Base：
 
-- AXIS
+- AXIS：單獨移動機器手臂的各軸
 
-- Mouse
+- Mouse：讓機器手臂移動到滑鼠點擊的位置（物件必須設有Collider）
 
-- Points：
+- Points：讓機器手臂移動到已教好的點位
 
 - Home：讓機器手臂立即回到Home點
 
