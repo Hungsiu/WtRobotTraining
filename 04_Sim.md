@@ -122,7 +122,7 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 
 關於TOOL的介紹，在隔壁頁有詳細說明 [傳送門](./02_Basis.html)
 
-RobotSim2的本質用於機器手臂的動作模擬，因此夾爪也是機器手臂的一環
+RobotSim2本質用於機器手臂的動作模擬，因此夾爪也是機器手臂的一環
 
 
 ### 移動機器手臂
