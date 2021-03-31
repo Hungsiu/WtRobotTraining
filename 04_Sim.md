@@ -51,7 +51,7 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 ![Image](./img/Sim/RobotSimActive.jpg)
 
 - 參考影片
-<iframe width="75%" src="https://www.youtube.com/embed/xv4v_fOwAC0?controls=0"></iframe>
+<iframe width="50%" height="50%" src="https://www.youtube.com/embed/xv4v_fOwAC0?controls=0"></iframe>
 
 
 ### 建立場景
