@@ -110,9 +110,9 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 
 - Robot Windows：可以查看、調整機器手臂的參數或狀態
 
-- Program Window：
+- Program Window：可以在RobotSim環境中插入KRL語法讓控制器執行（？
 
-- Controller Window：
+- Controller Window：主要設置哪部機器手臂執行哪支程式，或是查看程式執行狀態
 
 - Export Window：可以調整程式輸出的相館設定
 
@@ -126,8 +126,6 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 在"Scene"視窗上方便會顯示「Tool」、「Base」、「AXIS」、「Mouse」、「Points」與「Home」的按鈕，做為移動機器手臂的參考
 
 ![Image](./img/Sim/RobotCoordinateReference.jpg)
-
-
 
 ### 教點
 
