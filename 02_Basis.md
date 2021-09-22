@@ -12,6 +12,8 @@
 
 ④連接線（動力線、訊號線等）
 
+<!--
+
 - 機器手臂結構
 
 ![Image](./img/Basis/RobotStruct.jpg)
@@ -37,6 +39,8 @@
 ②運動鏈起點（ROBROOT）
 
 ③運動鏈自由端（法蘭）
+
+-->
 
 <br/>
 
@@ -102,6 +106,8 @@
 
 ⑩右側拱頂（左手握）
 
+<!--
+
 - 主畫面
 
 ![Image](./img/Basis/SmartPAD-Main.jpg)
@@ -161,6 +167,8 @@
 ⑪Incremental jogging
 
 <br/>
+
+-->
 
 ### 軸向
 
