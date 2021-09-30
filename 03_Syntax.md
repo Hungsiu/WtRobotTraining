@@ -43,9 +43,9 @@ KRL程式分為.src與.dat兩個檔案，.src描述了程式的動作，.dat存�
 DECL Data_Type Variable_Name
 ```
 
-範例
+範例：宣告變數
 
-1. 在.src檔中
+1.在.src檔中
 ```
 DEF DefineValueExample
     DECL INT Counter
@@ -54,9 +54,10 @@ DEF DefineValueExample
 END
 ```
 
-2. 在.dat檔中
+2.在.dat檔中
 ```
 DEFDAT DefineValueExample
     DECL INT Counter = 5
 ENDDAT
 ```
+
