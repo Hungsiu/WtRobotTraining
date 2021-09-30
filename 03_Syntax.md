@@ -134,3 +134,6 @@ DEF StrucExample
     Position.Z = 300
 END
 ```
+
+### 枚舉（Enumeration）
+
