@@ -85,4 +85,52 @@ ENDDAT
 
 ### 陣列（Array）
 
-陣列是一種多個**相同型態的資料**依序排列
+陣列是由多個相同型態的資料依序排列後所產生的資料型態
+
+語法：宣告
+```
+DECL Data_Type Variable_Name[Number_of_Elements]
+```
+
+語法：給值
+```
+Variable_Name[Array_Index] = Value
+```
+
+範例
+
+Measurement是一個有5個元素的浮點數陣列
+第3個元素的值是7.23
+```
+DECL REAL Measurement[5]
+
+Measurement[3] = 7.23
+```
+
+### 結構（Structures）
+
+結構是由多個相同或不同的資料型態組合而成
+
+語法
+```
+STRUC Structure name Data_Type1 A, B, Data_Type2 C, D
+```
+
+KUKA的點位資料即是一種結構的變數
+```
+STRUC E6POS REAL X, Y, Z, A, B, C, E1, E2, E3, E4, E5, E6, INT S, T
+```
+
+範例
+```
+DEF StrucExample
+    DECL E6POS Position
+    INI
+
+    Position = {X 0,Y 0,Z 0,A 0,B 0,C 0}
+
+    Position.X = 100
+    Position.Y = 200
+    Position.Z = 300
+END
+```
