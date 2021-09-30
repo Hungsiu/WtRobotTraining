@@ -137,3 +137,23 @@ END
 
 ### 枚舉（Enumeration）
 
+枚舉是一個物件的所有可能取值的集合
+
+語法
+```
+ENUM Enumeration_Type_Name Constant_1, Constant_n
+```
+
+KUKA的操作模式正是一種枚舉的資料型態，僅會有T1、T2、AUT、EXT四種模式
+```
+ENUM MODE_OP T1, T2, AUT, EX, INVALID
+```
+
+範例
+```
+ENUM Week Sun,Mon,Tue,Wed,Thu,Fri,Sat
+
+DECL Week Today
+
+Today = #Thu
+```
