@@ -213,3 +213,33 @@ Today = #Thu
 ### LIN
 
 ### CIRC
+
+## 條件運算式
+
+用來比較條件的真假，決定程式接下來應採取的行動
+
+### IF-ELSE
+
+- IF-ELSE流程圖
+
+![Image](./img/KRL/KRL_Execution_FlowChart.jpg)
+
+### SWITCH-CASE
+
+## 迴圈
+
+### FOR
+
+### WHILE
+
+### REPEAT
+
+### LOOP
+
+## 流程控制
+
+### GOTO
+
+### WAIT
+
+### HALT
