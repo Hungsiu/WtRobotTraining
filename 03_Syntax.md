@@ -36,7 +36,7 @@ KRL程式分為.src與.dat兩個檔案，.src描述了程式的動作，.dat存�
 在KRL中的宣告受到以下規範
 
 - 在.src檔中宣告變數時，需要宣告在DEF與INI之間的區域，並在INI之後賦予初始值
-- 變數可以宣告為區域變數或是全域變數（GLOBAL）
+- 在.dat檔中變數可以宣告為區域變數或是全域變數（GLOBAL），但須在DEFDAT檔名後方加上PUBLIC
 
 語法
 ```
@@ -54,10 +54,17 @@ DEF DefineValueExample
 END
 ```
 
-2.在.dat檔中
+2.在.dat檔中宣告區域變數
 ```
 DEFDAT DefineValueExample
     DECL INT Counter = 5
+ENDDAT
+```
+
+3.在.dat檔中宣告全域變數
+```
+DEFDAT DefineValueExample PUBLIC
+    DECL GLOBAL INT Counter = 5
 ENDDAT
 ```
 
