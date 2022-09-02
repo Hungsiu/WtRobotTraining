@@ -75,7 +75,7 @@ ENDDAT
 - 定　義：不包含小數點之正負數
 - 範　圍：-2147483648 ~ 2147483647
 
-### 浮點數（Floatingpoint number）
+### 浮點數（Floating point number）
 - 關鍵字：REAL
 - 定　義：包含小數點之正負數
 - 範　圍：±1.1E-38 ~ ±3.4E+38
