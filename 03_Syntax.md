@@ -249,6 +249,13 @@ Today = #Thu
 
 出廠預設$BASE與$WORLD一致，在程式碼中透過可透過$TOOL、$BASE、$LOAD切換不同工具資料
 
+```
+$TOOL = TOOL_DATA[1]
+$BASE = BASE_DATA[1]
+$LOAD = LOAD_DATA[1]
+```
+
+
 ※原廠手冊中有註明，切換$TOOL時應一併切換$LOAD的資料，否則若因此造成撞機，將無保固
 
 ### PTP
@@ -289,7 +296,55 @@ PTP_REL {A1 90}
 
 ### LIN
 
-### CIRC
+LINE此動作機器手臂會保持TCP維持一樣的傾角(?)走到目標點位
+
+語法
+
+```
+LIN 點位名字    ;只能POS/E6POS的資料型態
+LIN {點位資料}  ;只能POS/E6POS的資料型態
+LIN_REL {方向 數值}  ;以當前位置做相對位置移動
+```
+
+範例
+
+```
+E6POS MY_POSITION
+MY_POSITION = {X 250,Y 0,Z 200,A 0,B 0,C 0}
+LIN MY_POSITION
+
+LIN {X 250,Y 0,Z 200,A 0,B 0,C 0}
+
+LIN_REL {X 90}
+```
+
+### CIRC(不常用，經驗較少)
+
+CIRCLE此動作需要一個參考點，機器手臂會經過參考點，走弧線到目標點位
+
+語法
+
+```
+CIRC 參考點名字,目標點名字    ;只能POS/E6POS的資料型態
+CIRC {參考點},{目標點}       ;只能POS/E6POS的資料型態
+```
+
+### CP動作
+
+在LIN或CIRC動作指令中的點為後面，可以增加關鍵字，讓手臂不用真的到達該點位。通常用在閃躲現場機構等，不需要精確到位的點位，以節省手臂動作的時間
+
+| 關鍵字 | 說明 | 單位 | 系統變數 |
+| ---- | ---- | ---- | ---- |
+| C_DIS | 與點位距離 | mm | $APO.CDIS |
+| C_ORI | ??角度?? | ° | $APO.CORI |
+| C_VEL | ??速度?? | % | $APO.CVEL |
+
+語法
+```
+LIN 點位名字 C_DIS
+
+LIN 點位資料 C_DIS
+```
 
 ## 條件運算式
 
