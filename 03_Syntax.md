@@ -228,19 +228,64 @@ Today = #Thu
 
 | 優先度 | 運算子 |
 | ------ | ------ |
-| 1(HIGH) | NOT　B_NOT |
-| 2 | *　/ |
-| 3 | +　- |
-| 4 | AND　B_AND |
-| 5 | EXOR　B_EXOR |
-| 6 | OR　B_OR |
-| 7 | ==　<>　<　>　<=　>= |
+| 1(HIGH) | NOT、B_NOT |
+| 2 | *、/ |
+| 3 | +、- |
+| 4 | AND、B_AND |
+| 5 | EXOR、B_EXOR |
+| 6 | OR、B_OR |
+| 7(Low) | ==、<>、<、>、<=、>= |
 
 ## 動作程式
 
-### 座標系統
+機器手臂動作時，基於4個座標系統
+
+| 座標系統 | 系統變數 | 狀態 |
+| --- | --- | --- |
+| 世界座標 | $WORLD | 唯讀 |
+| ROBOT座標 | $ROBROOT | 唯讀(可透過$MACHINE.dat內修改) |
+| TOOL座標 | $TOOL | 可修改 |
+| BASE座標 | $BASE | 可修改 |
+
+出廠預設$BASE與$WORLD一致，在程式碼中透過可透過$TOOL、$BASE、$LOAD切換不同工具資料
+
+※原廠手冊中有註明，切換$TOOL時應一併切換$LOAD的資料，否則若因此造成撞機，將無保固
 
 ### PTP
+
+Point-to-Point，此動作為手臂直接將各軸馬達角度轉動到點位上的角度
+
+為三種動作中速度最快者，但此動作不保證TCP水平移動，若是手臂工具上是夾取液態的容器，容器內的液體可能會有灑出的狀況
+
+S與T
+
+座標位置(X,Y,Z)不足以明確表達機器手臂的角度或姿態，S(Status)與T(Turn)便是為了更明確指出手臂的角度及姿態而誕生
+
+S、T的數值紀錄在POS/E6POS兩種型態中，並且只有PTP的動作類型有效
+
+- S與T介紹：相同的點位，卻無法得知各軸角度
+
+![Image](./img/KRL/KRL_SandTInstruction.jpg)
+
+語法
+
+```
+PTP 點位名字
+PTP {點位資料}
+PTP_REL {軸 角度}  ;以當前位置做相對位置移動
+```
+
+範例
+
+```
+E6POS MY_POSITION
+MY_POSITION = {X 250,Y 0,Z 200,A 0,B 0,C 0}
+PTP MY_POSITION
+
+PTP {A1 0,A2 -90,A3 90,A4 0,A5 0,A6 0}
+
+PTP_REL {A1 90}
+```
 
 ### LIN
 
