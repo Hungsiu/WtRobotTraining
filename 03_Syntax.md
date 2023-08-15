@@ -391,7 +391,7 @@ SWITCH TODAY_WEATHER
         MsgNotify(Today is sunny day")  ;TODAY_WEATHER是#SUNNY，所以會執行這裡
     CASE #RAINY
         MsgNotify(Today is rainy day")
-    CASE CLOUDY
+    CASE #CLOUDY
         MsgNotify(Today is cloudy day")
     DEFAULT
 ENDSWITCH
@@ -399,7 +399,24 @@ ENDSWITCH
 
 ## 迴圈
 
+一樣的事情重複做
+
 ### FOR
+
+使用FOR迴圈需要宣告一個迴圈計數器
+
+當迴圈計數器達到條件後，迴圈便會結束
+
+語法
+```
+INT _I,_COUNTER ;迴圈計數器
+_COUNTER = 0
+
+;從1開始，每次執行後+1(STEP的數值)，當_i達到100後離開迴圈
+FOR _I = 1 TO 100 STEP 1
+    _COUNTER = _COUNTER + _I
+ENDFOR
+```
 
 ### WHILE
 
