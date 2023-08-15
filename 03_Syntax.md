@@ -336,8 +336,8 @@ CIRC {參考點},{目標點}       ;只能POS/E6POS的資料型態
 | 關鍵字 | 說明 | 單位 | 系統變數 |
 | ---- | ---- | ---- | ---- |
 | C_DIS | 與點位距離 | mm | $APO.CDIS |
-| C_ORI | ??角度?? | ° | $APO.CORI |
-| C_VEL | ??速度?? | % | $APO.CVEL |
+| C_ORI | 等待補充 | ° | $APO.CORI |
+| C_VEL | 等待補充 | % | $APO.CVEL |
 
 語法
 ```
@@ -348,15 +348,54 @@ LIN 點位資料 C_DIS
 
 ## 條件運算式
 
-用來比較條件的真假，決定程式接下來應採取的行動
+用來比較條件的結果，決定程式接下來應採取的行動
 
 ### IF-ELSE
 
+二選一的判斷。IF可單獨使用，不一定要有ELSE的區塊
+
+條件為TRUE時執行，條件為FALSE則執行ELSE的區塊
+
 - IF-ELSE流程圖
 
-![Image](./img/KRL/KRL_Execution_FlowChart.jpg)
+![Image](./img/KRL/KRL_Execution_IfElse.jpg)
+
+
+語法
+```
+BOOL IS_SUNNY
+IS_SUNNY = TRUE
+IF (IS_SUNNY) THEN
+    MsgNotify(Today is sunny day")  ;IS_SUNNY是TRUE會執行這邊
+ELSE
+    MsgNotify(Today is not sunny day")
+ENDIF
+```
 
 ### SWITCH-CASE
+
+多選一的判斷。根據條件的數值，執行對應的結果
+
+- SWITCH-CASE流程圖
+
+![Image](./img/KRL/KRL_Execution_SwitchCase.jpg)
+
+語法
+```
+ENUM WEATHER_TYPE SUNNY,RAINY,CLOUDY
+DECL WEATHER_TYPE TODAY_WEATHER
+TODAY_WEATHER = #SUNNY
+
+SWITCH TODAY_WEATHER
+    CASE #SUNNY
+        MsgNotify(Today is sunny day")  ;TODAY_WEATHER是#SUNNY，所以會執行這裡
+    CASE #RAINY
+        MsgNotify(Today is rainy day")
+    CASE CLOUDY
+        MsgNotify(Today is cloudy day")
+    DEFAULT
+ENDSWITCH
+```
 
 ## 迴圈
 
