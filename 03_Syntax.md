@@ -420,6 +420,24 @@ ENDFOR
 
 ### WHILE
 
+使用WHILE迴圈時需要設定一個條件
+
+先判斷條件，且結果是TRUE時才會執行迴圈內的動作
+
+語法
+
+```
+INT _I,_COUNT
+
+_I = 1
+_COUNT = 1
+
+WHILE _I <= 10
+    _COUNT = _COUNT * _I
+    _I = _I + 1
+ENDWHILE
+```
+
 ### REPEAT
 
 ### LOOP
