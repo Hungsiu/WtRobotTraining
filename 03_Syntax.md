@@ -1,3 +1,7 @@
+<style>
+ .red{color:#FF0000;}
+</style>
+
 # KUKA Robot Language（KRL）
 
 ## WorkVisual
@@ -478,11 +482,12 @@ LOOP
     _COUNT = _COUNT * _I
     _I = _I + 1
 
-    
+    IF _I > 10 THEN
+        EXIT
+    ENDIF
 ENDLOOP
 ```
-
-<p style="color:#ff0000;">123</p>
+<p class="red"> Red Text </p>
 
 ## 流程控制
 
