@@ -1,5 +1,8 @@
 <style>
- .red{color:#FF0000;}
+    .stress
+    {
+        color:#FF0000;
+    }
 </style>
 
 # KUKA Robot Language（KRL）
@@ -43,6 +46,7 @@ KRL程式分為.src與.dat兩個檔案，.src描述了程式的動作，.dat存�
 - 在.dat檔中變數可以宣告為區域變數或是全域變數（GLOBAL），但須在DEFDAT檔名後方加上PUBLIC
 
 語法
+
 ```
 DECL Data_Type Variable_Name
 ```
@@ -50,6 +54,7 @@ DECL Data_Type Variable_Name
 範例：宣告變數
 
 1.在.src檔中
+
 ```
 DEF DefineValueExample
     DECL INT Counter
@@ -59,6 +64,7 @@ END
 ```
 
 2.在.dat檔中宣告區域變數
+
 ```
 DEFDAT DefineValueExample
     DECL INT Counter = 5
@@ -66,6 +72,7 @@ ENDDAT
 ```
 
 3.在.dat檔中宣告全域變數
+
 ```
 DEFDAT DefineValueExample PUBLIC
     DECL GLOBAL INT Counter = 5
@@ -75,21 +82,25 @@ ENDDAT
 ## 資料型態
 
 ### 整數（Integer）
+
 - 關鍵字：INT
 - 定　義：不包含小數點之正負數
 - 範　圍：-2147483648 ~ 2147483647
 
 ### 浮點數（Floating point number）
+
 - 關鍵字：REAL
 - 定　義：包含小數點之正負數
 - 範　圍：±1.1E-38 ~ ±3.4E+38
 
 ### 布林（Boolean）
+
 - 關鍵字：BOOL
 - 定　義：邏輯狀態
 - 範　圍：TRUE、FALSE
 
 ### 字元（Character）
+
 - 關鍵字：CHAR
 - 定　義：任一文字的字母
 - 範　圍：ASCII編碼的字元編號
@@ -99,11 +110,13 @@ ENDDAT
 陣列是由多個相同型態的資料依序排列後所產生的資料型態
 
 語法：宣告
+
 ```
 DECL Data_Type Variable_Name[Number_of_Elements]
 ```
 
 語法：給值
+
 ```
 Variable_Name[Array_Index] = Value
 ```
@@ -112,6 +125,7 @@ Variable_Name[Array_Index] = Value
 
 Measurement是一個有5個元素的浮點數陣列
 第3個元素的值是7.23
+
 ```
 DECL REAL Measurement[5]
 
@@ -123,16 +137,19 @@ Measurement[3] = 7.23
 結構是由多個相同或不同的資料型態組合而成
 
 語法
+
 ```
 STRUC Structure name Data_Type1 A, B, Data_Type2 C, D
 ```
 
 KUKA的點位資料即是一種結構的變數
+
 ```
 STRUC E6POS REAL X, Y, Z, A, B, C, E1, E2, E3, E4, E5, E6, INT S, T
 ```
 
 範例
+
 ```
 DEF StrucExample
     DECL E6POS Position
@@ -151,16 +168,19 @@ END
 枚舉是一個物件的所有可能取值的集合
 
 語法
+
 ```
 ENUM Enumeration_Type_Name Constant_1, Constant_n
 ```
 
 KUKA的操作模式正是一種枚舉的資料型態，僅會有T1、T2、AUT、EXT四種模式
+
 ```
 ENUM MODE_OP T1, T2, AUT, EX, INVALID
 ```
 
 範例
+
 ```
 ENUM Week Sun,Mon,Tue,Wed,Thu,Fri,Sat
 
@@ -366,6 +386,7 @@ LIN 點位資料 C_DIS
 
 
 語法
+
 ```
 BOOL IS_SUNNY
 IS_SUNNY = TRUE
@@ -385,6 +406,7 @@ ENDIF
 ![Image](./img/KRL/KRL_Execution_SwitchCase.jpg)
 
 語法
+
 ```
 ENUM WEATHER_TYPE SUNNY,RAINY,CLOUDY
 DECL WEATHER_TYPE TODAY_WEATHER
@@ -412,6 +434,7 @@ ENDSWITCH
 當迴圈計數器達到條件後，迴圈便會結束
 
 語法
+
 ```
 INT _I,_COUNTER ;迴圈計數器
 _COUNTER = 0
@@ -487,12 +510,11 @@ LOOP
     ENDIF
 ENDLOOP
 ```
-<p class="red"> Red Text </p>
 
 ## 流程控制
-
-### GOTO
 
 ### WAIT
 
 ### HALT
+
+### GOTO
