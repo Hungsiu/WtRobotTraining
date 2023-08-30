@@ -446,6 +446,8 @@ ENDWHILE
 
 ※REPEAT與WHILE的差別，在於REPEAT至少會執行一次迴圈內的動作
 
+語法
+
 ```
 INT _I,_COUNT
 
@@ -459,6 +461,28 @@ UNTIL _I > 10
 ```
 
 ### LOOP
+
+LOOP會一直執行回圈內的動作，不會主動停止
+
+需要使用EXIT關鍵字離開LOOP迴圈
+
+語法
+
+```
+INT _I,_COUNT
+
+_I = 1
+_COUNT = 1
+
+LOOP
+    _COUNT = _COUNT * _I
+    _I = _I + 1
+
+    
+ENDLOOP
+```
+
+<p>123</p>
 
 ## 流程控制
 
