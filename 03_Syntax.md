@@ -482,7 +482,7 @@ LOOP
 ENDLOOP
 ```
 
-<p>123</p>
+<p style="color:#ff0000;">123</p>
 
 ## 流程控制
 
