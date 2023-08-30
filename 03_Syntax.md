@@ -440,6 +440,24 @@ ENDWHILE
 
 ### REPEAT
 
+使用REPEAT迴圈時需要設定一個條件
+
+先執行迴圈內的動作，再判斷條件，結果是TRUE時，不會再重複執行迴圈內的動作
+
+※REPEAT與WHILE的差別，在於REPEAT至少會執行一次迴圈內的動作
+
+```
+INT _I,_COUNT
+
+_I = 1
+_COUNT = 1
+
+REPEAT
+    _COUNT = _COUNT * _I
+    _I = _I + 1
+UNTIL _I > 10
+```
+
 ### LOOP
 
 ## 流程控制
