@@ -3,6 +3,10 @@
     {
         color:#FF0000;
     }
+    .keyWords
+    {
+        color:#00E3E3;
+    }
 </style>
 
 # KUKA Robot Language（KRL）
@@ -228,10 +232,10 @@ Today = #Thu
 
 ### 位元運算子
 
-- 「B_NOT」：
-- 「B_AND」：
-- 「B_OR」：
-- 「B_EXOR」：
+- 「B_NOT」：用於對二進制數字的每個位元進行「NOT」運算
+- 「B_AND」：用於對符號兩側的二進制數字的每個位元進行「AND」運算
+- 「B_OR」：用於對符號兩側的二進制數字的每個位元進行「OR」運算
+- 「B_EXOR」：用於對符號兩側的二進制數字的每個位元進行「EXOR」運算
 
 ### 向量運算子
 
@@ -491,7 +495,7 @@ UNTIL _I > 10
 
 LOOP會一直執行回圈內的動作，不會主動停止
 
-需要使用EXIT關鍵字離開LOOP迴圈
+需要使用<span class="keyWords">EXIT</span>關鍵字離開LOOP迴圈
 
 語法
 
