@@ -118,7 +118,7 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 
 - Controller Window：主要設置哪部機器手臂執行哪支程式，或是查看程式執行狀態
 
-- Export Window：可以調整程式輸出的相館設定
+- Export Window：可以調整程式輸出的相關設定
 
 - SimModel Window：可以在此視窗中挑選不同型號的機器手臂加入場景中
 
