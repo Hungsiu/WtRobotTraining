@@ -114,13 +114,23 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 
 - Robot Windows：可以查看、調整機器手臂的參數或狀態
 
+    ![Image](./img/Sim/RobotWindow.png)
+
 - Program Window：可以在RobotSim環境中插入KRL語法讓控制器執行
+
+    ![Image](./img/Sim/ProgramWindow.png)
 
 - Controller Window：主要設置哪部機器手臂執行哪支程式，或是查看程式執行狀態
 
+    ![Image](./img/Sim/ControllerWindow.png)
+
 - Export Window：可以調整程式輸出的相關設定
 
+    ![Image](./img/Sim/ExportWindow.png)
+
 - SimModel Window：可以在此視窗中挑選不同型號的機器手臂加入場景中
+
+    ![Image](./img/Sim/SimModelWindow.png)
 
 ## 機器手臂的TOOL
 
