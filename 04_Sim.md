@@ -106,7 +106,7 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 
 <br/>
 
-## RobotSim環境與操作
+# RobotSim環境與操作
 
 在RobotSim中，共有5大功能分別設置在不同的視窗中，這些視窗可由Unity的選單列中的RobotSim/Window開啟
 
@@ -122,13 +122,13 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 
 - SimModel Window：可以在此視窗中挑選不同型號的機器手臂加入場景中
 
-### 機器手臂的TOOL
+## 機器手臂的TOOL
 
 關於TOOL的介紹，在隔壁頁有詳細說明 [傳送門](./02_Basis.html)
 
 RobotSim本質用於機器手臂的動作模擬，因此夾爪也是機器手臂的一環
 
-### 移動機器手臂
+## 移動機器手臂
 
 從"Hierarchy"清單或是"Scene"視窗中點選要移動的機器手臂，
 在"Scene"視窗上方便會顯示「Tool」、「Base」、「AXIS」、「Mouse」、「Points」與「Home」的按鈕，做為移動機器手臂的參考
@@ -167,32 +167,31 @@ RobotSim本質用於機器手臂的動作模擬，因此夾爪也是機器手臂
 
 ![image](./img/Sim/RobotMove_Points.gif)
 
-### 教點
+## 教點
 
 選擇手臂，透過TOOL、BASE、WORLD、MOUSE將手臂移動到要存點的位置後，按下Robot Windows的「+Point」，便可新增新的點位
 
 ![Image](./img/Sim/教點步驟.gif)
 
-## RobotSim程式設計
+# RobotSim程式設計
 
-### 變數
+## 變數
 
-### 迴圈
+## 迴圈
 
-### 判斷
+## 判斷
 
-### 機器手臂的動作
+## 機器手臂的動作
 
-#### PTP
+### PTP
 
-#### LIN
+### LIN
 
-#### CIRC
+### CIRC
 
-### 自訂的RobotSim程式
+## 自訂的RobotSim程式
 
-
-## RobotSim範例－夾娃娃機
+# RobotSim範例－夾娃娃機
 
 -
 -
