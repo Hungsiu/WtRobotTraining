@@ -169,6 +169,10 @@ RobotSim本質用於機器手臂的動作模擬，因此夾爪也是機器手臂
 
 ### 教點
 
+選擇手臂，透過TOOL、BASE、WORLD、MOUSE將手臂移動到要存點的位置後，按下Robot Windows的「+Point」，便可新增新的點位
+
+![Image](./img/Sim/教點步驟.gif)
+
 ## RobotSim程式設計
 
 ### 變數
