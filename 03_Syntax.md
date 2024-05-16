@@ -557,12 +557,51 @@ ENDLOOP
 
 語法（等待$IN[1]的值為FALSE）
 ```
-WAIT FOR ($IN[1] == FALSE)
+DEF MyModule
+
+    INI
+
+    PTP HOME VEL= 100 % DEFAULT
+
+    WAIT FOR ($IN[1] == FALSE)
+
+    PTP HOME VEL= 100 % DEFAULT
+
+END
 ```
 
 語法（等待1秒）
 ```
-WAIT SEC 1
+DEF MyModule
+
+    INI
+
+    PTP HOME VEL= 100 % DEFAULT
+
+    WAIT SEC 1
+
+    PTP HOME VEL= 100 % DEFAULT
+
+END
 ```
 
 ### HALT
+
+等待操作者按下「開始鍵」
+
+[失憶傳送門按這裡](./02_Basis.md)
+
+語法
+```
+DEF MyModule
+
+    INI
+
+    PTP HOME VEL= 100 % DEFAULT
+
+    HALT
+
+    PTP HOME VEL= 100 % DEFAULT
+
+END
+```
