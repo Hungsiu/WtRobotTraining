@@ -559,7 +559,7 @@ ENDLOOP
 
 等待某個條件或一段時間
 
-語法（等待$IN[1]的值為FALSE）
+語法（等待$IN[1]）
 ```
 DEF MyModule
 
@@ -567,7 +567,11 @@ DEF MyModule
 
     PTP HOME VEL= 100 % DEFAULT
 
-    WAIT FOR ($IN[1] == FALSE)
+    ;等待$IN[1]的值為TRUE
+    WAIT FOR $IN[1]
+
+    ;等待$IN[1]的值為FALSE
+    WAIT FOR NOT $IN[1]
 
     PTP HOME VEL= 100 % DEFAULT
 
