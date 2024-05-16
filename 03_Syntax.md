@@ -42,7 +42,7 @@ KRL程式分為.src與.dat兩個檔案，.src描述了程式的動作，.dat存�
 在KRL中的命名受到以下規範
 
 - <span class="keyPoint">最長</span>僅能24個字元
-- <span class="keyPoint">僅能使用</span>26個英文字母（A-Z）、10個數字（0-9）與2個特殊字元「_」、「$」
+- <span class="keyPoint">僅能</span>使用26個英文字母（A-Z）、10個數字（0-9）與2個特殊字元「_」、「$」
 - 命名時第一個字元<span class="keyPoint">不能</span>使用數字
 - 命名時<span class="keyPoint">不能</span>使用關鍵字
 
@@ -243,7 +243,7 @@ Today = #Thu
 
 ### 向量運算子
 
-以「:」表示，意為在左邊的位置／移動右邊的距離
+以「:」表示，意為在左邊的位置，移動右邊的距離
 
 隨著兩邊使用的型態不同，會影響到最終結果的型態
 
@@ -295,16 +295,6 @@ $LOAD = LOAD_DATA[1]
 Point-to-Point，此動作為手臂直接將各軸馬達角度轉動到點位上的角度
 
 為三種動作中速度最快者，但此動作不保證TCP水平移動，若是手臂工具上是夾取液態的容器，容器內的液體可能會有灑出的狀況
-
-S與T
-
-座標位置(X,Y,Z)不足以明確表達機器手臂的角度或姿態，S(Status)與T(Turn)便是為了更明確指出手臂的角度及姿態而誕生
-
-S、T的數值紀錄在POS/E6POS兩種型態中，並且只有PTP的動作類型有效
-
-- S與T介紹：相同的點位，卻無法得知各軸角度
-
-![Image](./img/KRL/KRL_SandTInstruction.jpg)
 
 語法
 
@@ -377,6 +367,25 @@ LIN 點位名字 C_DIS
 
 LIN 點位資料 C_DIS
 ```
+
+### Status、Turn
+
+座標位置(X,Y,Z)不足以明確表達機器手臂的角度或姿態，S(Status)與T(Turn)便是為了更明確指出手臂的角度及姿態而誕生
+
+S、T的數值紀錄在POS/E6POS兩種型態中，並且只有PTP的動作類型有效
+
+- S與T介紹：相同的點位，卻無法得知各軸角度
+
+![Image](./img/KRL/KRL_SandTInstruction.jpg)
+
+#### Status
+
+#### Turn
+
+
+Turn與六軸角度的關係如下圖所示：
+
+![Image](./img/KRL/TurnBit.png)
 
 ## 條件運算式
 
