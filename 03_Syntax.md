@@ -553,6 +553,16 @@ ENDLOOP
 
 ### WAIT
 
-### HALT
+等待某個條件或一段時間
 
-### GOTO
+語法（等待$IN[1]的值為FALSE）
+```
+WAIT FOR ($IN[1] == FALSE)
+```
+
+語法（等待1秒）
+```
+WAIT SEC 1
+```
+
+### HALT
