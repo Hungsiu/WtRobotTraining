@@ -380,8 +380,28 @@ S、T的數值紀錄在POS/E6POS兩種型態中，並且只有PTP的動作類型
 
 #### Status
 
+共有3個Bit組合成一個二進制數字，分別代表TCP的位置詳細資訊
+
+- Bit 0：TCP是否經過中心線
+  
+    Bit 0示意圖：</br>
+![Image](./img/KRL/S_Bit0.png)
+
+- Bit 1：A3角度是否大於0
+  
+    Bit 1示意圖：</br>
+![Image](./img/KRL/S_Bit1.png)
+
+- Bit 2：A5角度是否大於0
+
+    Bit 2示意圖：</br>
+![Image](./img/KRL/S_Bit2.png)
+
+
+
 #### Turn
 
+共有6個Bit組合成一個二進制數字，分別代表各軸馬達正轉或反轉
 
 Turn與六軸角度的關係如下圖所示：
 
