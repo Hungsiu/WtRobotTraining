@@ -263,25 +263,34 @@ string stringOfValue = value.StringData;
 
 ## 動作
 
+在Program視窗中RobotProgram Command Menu按下Motion按鈕，可切換至編輯動作的頁面。可操作的選項分為系統（System）與動作（Motion）
+
+關於系統的選項：
+- Base：設定RobotSim Program中機器手臂使用的Base
+- Tool：設定RobotSim Program中機器手臂使用的Tool
+- Speed：設定RobotSim Program中機器手臂的運動速度
+
+關於動作的選項：
+- PTP：增加一組PTP動作
+- LIN：增加一組LIN動作
+- CIRC：增加一組CIRC動作
+
 ## 流程控制
 
+在Program視窗中RobotProgram Command Menu按下Flow按鈕，可切換至編輯動作的頁面。可操作的選項分別為流程（Flow）與狀態（Condition）
+
+關於流程的選項：
+- Loop
+- For-Loop
+- Wait Time
+
+關於狀態的選項：
+- If-Else
+- While
+- Switch-Case
+
 ## 外部控制
-
-## 機器手臂的動作
-
-### PTP
-
-### LIN
-
-### CIRC
 
 ## 自訂的RobotSim程式
 
 # RobotSim範例－夾娃娃機
-
--
--
--
--
--
--
