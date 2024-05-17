@@ -223,14 +223,19 @@ RobotSim本質用於機器手臂的動作模擬，因此夾爪也是機器手臂
 
 ## 變數
 
-RobotSim支援的變數型態只有
+RobotSim中的變數由RobotCommandValue控制，包含4種資料型態，使用時需透過Type調整儲存的資料型態
+
+![Image](./img/Sim/RobotSim變數型態.png)
+
+變數可直接用在RobotSim的程式設計中，或是透過C#腳本來使用
+
+RobotCommandValue支援的變數型態只有
 - Bool：
 - Int：
 - Float：
 - String：
 
 ```cs
-
 RobotCommandValue value;
 
 //  取得Bool資料
@@ -244,7 +249,6 @@ float floatOfValue = value.FloatData;
 
 //  取得String資料
 string stringOfValue = value.StringData;
-
 ```
 
 ## 動作
@@ -252,7 +256,6 @@ string stringOfValue = value.StringData;
 ## 流程控制
 
 ## 外部控制
-
 
 ## 機器手臂的動作
 
