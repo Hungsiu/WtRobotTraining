@@ -223,6 +223,28 @@ RobotSim本質用於機器手臂的動作模擬，因此夾爪也是機器手臂
 
 ## 變數
 
+RobotSim支援的變數型態只有
+- Bool：
+- Int：
+- Float：
+- String：
+
+```C#
+RobotCommandValue value;
+
+//  取得Bool資料
+bool boolOfValue = value.BoolData;
+
+//  取得Int資料
+int intOfValue = value.IntData;
+
+//  取得Float資料
+float floatOfValue = value.FloatData;
+
+//  取得String資料
+string stringOfValue = value.StringData;
+```
+
 ## 動作
 
 ## 流程控制
