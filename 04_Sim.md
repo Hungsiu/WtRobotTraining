@@ -229,7 +229,8 @@ RobotSim支援的變數型態只有
 - Float：
 - String：
 
-```C#
+```cs
+
 RobotCommandValue value;
 
 //  取得Bool資料
@@ -243,6 +244,7 @@ float floatOfValue = value.FloatData;
 
 //  取得String資料
 string stringOfValue = value.StringData;
+
 ```
 
 ## 動作
