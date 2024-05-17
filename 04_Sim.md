@@ -2,6 +2,21 @@
 title: RobotSim機器手臂模擬軟體
 ---
 
+<style>
+    .stress
+    {
+        color:#FF0000;
+    }
+    .keyWords
+    {
+        color:#00E3E3;
+    }
+    .keyPoint
+    {
+        color:#ff0000;
+    }
+</style>
+
 # 探索新世界－RobotSim
 
 ## 在RobtSim中能做什麼
@@ -132,6 +147,12 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 
     ![Image](./img/Sim/SimModelWindow.png)
 
+## 建立新場景
+
+在Unity工作列選單「RobotSim」>「Create」選擇「Empty RobotSim Scene」即可建立　**空白**的RobotSim場景
+
+![Image](./img/Sim/建立RobotSim場景.gif)
+
 ## 機器手臂的TOOL
 
 關於TOOL的介紹，在隔壁頁有詳細說明 [傳送門](./02_Basis.html)
@@ -186,6 +207,8 @@ RobotSim本質用於機器手臂的動作模擬，因此夾爪也是機器手臂
 # RobotSim程式設計
 
 ## 變數
+
+
 
 ## 迴圈
 
