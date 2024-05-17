@@ -217,6 +217,10 @@ RobotSim本質用於機器手臂的動作模擬，因此夾爪也是機器手臂
 - 流程（Flow）
 - 外部控制（Extends）
 
+選單如下圖紅框所示：
+
+![Image](./img/Sim/RobotProgram選單.png)
+
 ## 變數
 
 ## 動作
