@@ -149,7 +149,7 @@ RobotSim可以視為unity的套件，並透過unitypackage安裝到unity環境�
 
 ## 建立新場景
 
-在Unity選單列RobotSim/Create中選擇「Empty RobotSim Scene」即可建立　**空白**的RobotSim場景
+在Unity選單列RobotSim/Create中選擇「Empty RobotSim Scene」即可建立**空白**的RobotSim場景
 
 ![Image](./img/Sim/建立RobotSim場景.gif)
 
