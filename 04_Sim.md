@@ -251,6 +251,16 @@ float floatOfValue = value.FloatData;
 string stringOfValue = value.StringData;
 ```
 
+### 操作
+
+在Program視窗中的Value選單最下方有Operator選項，共有5種操作
+
+- Set：將RobotCommandValue設定為指定的值
+- Add：將2個RobotCommandValue的值相加
+- Subtract：將2個RobotCommandValue的值相減
+- Multiply：將2個RobotCommandValue的值相乘
+- Divde：將2個RobotCommandValue的值相除
+
 ## 動作
 
 ## 流程控制
