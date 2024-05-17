@@ -206,17 +206,25 @@ RobotSim本質用於機器手臂的動作模擬，因此夾爪也是機器手臂
 
 # RobotSim程式設計
 
-開啟RobotSim的Program視窗，並在Unity視窗裡的Hierarchy中選擇RobotSim產生的Programs物件，此時在RobotSim的Program視窗會出現「+Program」按鈕，點選後RobotSim會自動在Programs物件底下新增一個ProgramBehaviour物件（物件名稱ProgramN，N為序列數字）
+開啟RobotSim的Program視窗，並在Unity視窗裡的Hierarchy中選擇RobotSim產生的Programs物件，此時在RobotSim的Program視窗會出現「+Program」按鈕，點選後RobotSim會自動在Programs物件底下新增一個ProgramBehaviour物件（物件名稱ProgramN，N為序列數字），所有關於RobotSim的機器手臂程式操作皆需透過ProgramBehaviour的物件來操作
 
-所有關於RobotSim的機器手臂程式操作皆需透過ProgramBehaviour的物件來操作
+當場景內有ProgramBehaviour時，在Program視窗中的Program List便會顯示該物件名稱，在清單中點選該物件便會出現程式編輯的選單（RobotProgram Command Menu）
+
+選單分為四大類：
+
+- 變數（Value）
+- 動作（Motion）
+- 流程（Flow）
+- 外部控制（Extends）
 
 ## 變數
 
+## 動作
 
+## 流程控制
 
-## 迴圈
+## 外部控制
 
-## 判斷
 
 ## 機器手臂的動作
 
