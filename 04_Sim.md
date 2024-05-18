@@ -280,9 +280,12 @@ string stringOfValue = value.StringData;
 在Program視窗中RobotProgram Command Menu按下Flow按鈕，可切換至編輯動作的頁面。可操作的選項分別為流程（Flow）與狀態（Condition）
 
 關於流程的選項：
-- Loop
-- For-Loop
-- Wait Time
+- Loop：新增一組Loop迴圈，放在這個階層下的RobotSim程式碼會一直重複執行
+- For-Loop：新增一組For迴圈，需搭配一個Int型態的RobotSim變數一起使用（當作Counter）。在Counter達成指定條件前會一直重複執行此階層內的RobotSim程式碼
+
+    ![Image](./img/Sim/設定For迴圈Counter.gif)
+
+- Wait Time：當RobotSim程式執行到此程式碼時會依據設定的時間進行等待（預設是等待1秒）
 
 關於狀態的選項：
 - If-Else
@@ -308,3 +311,10 @@ string stringOfValue = value.StringData;
 - UpdateName：更新使用該Script的物件的名字
 
 # RobotSim範例－夾娃娃機
+
+## 設定TCP
+
+在Unity中匯入夾爪後，將模型放入Tools/Tool1/Flange的階層底下
+
+![Image](./img/Sim/夾爪放到Flange.gif)
+
