@@ -291,6 +291,8 @@ string stringOfValue = value.StringData;
 
 ## 外部控制
 
+這個不重要 讓我們54它
+
 ## 自訂的RobotSim程式
 
 # RobotSim範例－夾娃娃機
