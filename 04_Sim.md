@@ -295,4 +295,11 @@ string stringOfValue = value.StringData;
 
 ## 自訂的RobotSim程式
 
+在Robotsim Program中允許使用者自行加入額外的功能，在新增的Script中把原本繼承的MonoBehaviour改為繼承RobotCommand，Robotsim的Controller變可將該Script視為是Robotsim Program的一個步驟
+
+繼承RobotCommand後需要覆寫3個方法：
+- Check
+- Execute
+- UpdateName
+
 # RobotSim範例－夾娃娃機
