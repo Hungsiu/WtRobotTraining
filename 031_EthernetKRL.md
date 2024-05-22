@@ -41,9 +41,9 @@ EKI使用XML文件定義基本的規範，並儲存在專案中Config/User/Commo
 
 XML格式以EthernetKRL作為最外層標籤，內部有三組標籤定義大部分的訊息
 
-- Configuration
-- Receive
-- Send
+- Configuration：內部與外部的詳細設定
+- Receive：EKI接收的資料，「事件訊息」也是在此設定
+- Send：對外部傳送的XML資料格式
 
 ## XML定義範例
 
