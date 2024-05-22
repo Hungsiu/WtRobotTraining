@@ -65,18 +65,18 @@ Server範例
   <RECEIVE>
     <XML>
       <ELEMENT Tag="REQUEST/CMD" Type="INT" Set_Flag="2" />
-      
-	  <ELEMENT Tag="REQUEST/PARAMETERS" Type="INT" Set_Flag="3" />
-	  <ELEMENT Tag="REQUEST/PARAMETERS/@VALUE" Type="INT" />
+
+      <ELEMENT Tag="REQUEST/PARAMETERS" Type="INT" Set_Flag="3" />
+      <ELEMENT Tag="REQUEST/PARAMETERS/@VALUE" Type="INT" />
     </XML>
   </RECEIVE>
   <SEND>
     <XML>
       <ELEMENT Tag="RESPONSE/CMD" Type="INT" />
       <ELEMENT Tag="RESPONSE/CMD/@CODE" Type="INT" />
-	  
-	  <ELEMENT Tag="RESPONSE/PARAMETERS" Type="INT" />
-	  <ELEMENT Tag="RESPONSE/PARAMETERS/@VALUE" Type="INT" />
+
+      <ELEMENT Tag="RESPONSE/PARAMETERS" Type="INT" />
+      <ELEMENT Tag="RESPONSE/PARAMETERS/@VALUE" Type="INT" />
     </XML>
   </SEND>
 </ETHERNETKRL>
@@ -113,6 +113,21 @@ ALIVE是「事件訊息」，表示當有Client連線了，$FLAG[1]會設定為T
 
 </br>
 
+```xml
+  <RECEIVE>
+    <XML>
+      <ELEMENT Tag="REQUEST/CMD" Type="INT" Set_Flag="2" />
+
+      <ELEMENT Tag="REQUEST/PARAMETERS" Type="INT" Set_Flag="3" />
+      <ELEMENT Tag="REQUEST/PARAMETERS/@VALUE" Type="INT" />
+    </XML>
+  </RECEIVE>
+```
+
+XML標籤定義KUKA所收的資料並設定收到資料時的「事件訊息」
+
+</br>
+
 Client範例
 
 ```xml
@@ -130,18 +145,18 @@ Client範例
   <RECEIVE>
     <XML>
       <ELEMENT Tag="REQUEST/CMD" Type="INT" Set_Flag="2" />
-      
-	  <ELEMENT Tag="REQUEST/PARAMETERS" Type="INT" Set_Flag="3" />
-	  <ELEMENT Tag="REQUEST/PARAMETERS/@VALUE" Type="INT" />
+
+      <ELEMENT Tag="REQUEST/PARAMETERS" Type="INT" Set_Flag="3" />
+      <ELEMENT Tag="REQUEST/PARAMETERS/@VALUE" Type="INT" />
     </XML>
   </RECEIVE>
   <SEND>
     <XML>
       <ELEMENT Tag="RESPONSE/CMD" Type="INT" />
       <ELEMENT Tag="RESPONSE/CMD/@CODE" Type="INT" />
-	  
-	  <ELEMENT Tag="RESPONSE/PARAMETERS" Type="INT" />
-	  <ELEMENT Tag="RESPONSE/PARAMETERS/@VALUE" Type="INT" />
+
+      <ELEMENT Tag="RESPONSE/PARAMETERS" Type="INT" />
+      <ELEMENT Tag="RESPONSE/PARAMETERS/@VALUE" Type="INT" />
     </XML>
   </SEND>
 </ETHERNETKRL>
