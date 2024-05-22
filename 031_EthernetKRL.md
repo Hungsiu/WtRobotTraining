@@ -60,7 +60,6 @@ Server範例
       <IP>192.168.1.147</IP>
       <PORT>54600</PORT>
       <ALIVE Set_Flag="1" />
-      <ENVIRONMENT>Submit</ENVIRONMENT>
     </INTERNAL>
   </CONFIGURATION>
   <RECEIVE>
@@ -82,6 +81,37 @@ Server範例
   </SEND>
 </ETHERNETKRL>
 ```
+
+語法解說
+
+```xml
+<EXTERNAL>
+  <TYPE>Client</TYPE>
+</EXTERNAL>
+```
+
+EXTERNAL標籤內定義外部裝置的設定，即與KUKA連接的裝置
+
+TYPE標籤內設定為Client，代表外部裝置是Client
+
+</br>
+
+```xml
+    <INTERNAL>
+      <TYPE>Server</TYPE>
+      <IP>192.168.1.147</IP>
+      <PORT>54600</PORT>
+      <ALIVE Set_Flag="1" />
+    </INTERNAL>
+```
+
+INTERNAL標籤內則是關於KUKA的設定
+
+TYPE標籤內設定為Server，代表KUKA是Server
+IP、PORT則定義用來提供TCP/IP通訊的資料
+ALIVE是「事件訊息」，表示當有Client連線了，$FLAG[1]會設定為True
+
+</br>
 
 Client範例
 
