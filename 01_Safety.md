@@ -144,8 +144,10 @@ title: 機器手臂安全檢查表
 * 機器手臂加裝工具後，必須進行工具中心點（Tool Center Point,TCP）、荷重、重心慣性調教校正，並確認在機器手臂荷重容許範圍內
 
 * 機器手臂作業前，必須先確認教導器或外部緊急停止按鈕可以正常運作
+  
+* 機器手臂自動模式（Auto Mode）運作及程式重新初始化（Reset）前，<span class="keyPoint">必須先確認機器手臂目前的位置是否安全</span>
 
-* 機器手臂自動模式（Auto Mode）運作前，<span class="keyPoint">必須先確認機器手臂目前的速度是否安全</span>
+* 機器手臂自動模式運作前，<span class="keyPoint">必須先確認機器手臂目前的速度是否安全</span>
 
 * 機器手臂自動模式運作前，<span class="keyPoint">必須先使用教導模式執行過整支程式</span>
 
