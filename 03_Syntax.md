@@ -718,3 +718,32 @@ _RESULT_4的值是0，因為在區分大小寫的情況下，"bc"不存在於來
 _RESULT_5的值是2，因為在不區分大小寫的情況下，"bc"開頭的"b"在來源字串的第2個位置
 
 ## 比對內容
+
+透過StrComp方法可以比對來源字串是否與某字串相符
+
+```
+DECL CHAR _SOURCE[50]
+DECL BOOL _RESULT_1,_RESULT_2,_RESULT_3,_RESULT_4,_RESULT_5
+
+_SOURCE[] = "ABCDE"
+
+_RESULT_1 = StrComp(_SOURCE[],"ABCDE",#CASE_SENS)
+
+_RESULT_2 = StrComp(_SOURCE[],"abcde",#CASE_SENS)
+
+_RESULT_3 = StrComp(_SOURCE[],"abcde",#NOT_CASE_SENS)
+
+_RESULT_4 = StrComp(_SOURCE[],"ABC",#CASE_SENS)
+
+_RESULT_5 = StrComp(_SOURCE[],"abc",#NOT_CASE_SENS)
+```
+
+_RESULT_1的值是TRUE，來源字串的值是"ABCDE"
+
+_RESULT_2的值是FALSE，在區分大小寫的情況下，來源字串的值不等於"abcde"
+
+_RESULT_3的值是TRUE，在不區分大小寫的情況下，來源字串的值是"abcde"
+
+_RESULT_4的值是FALSE，來源字串的值不等於"ABC"
+
+_RESULT_5的值是FALSE，來源字串的值不等於"abc"
