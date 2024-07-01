@@ -652,3 +652,40 @@ _SUCCESS = StrToBool("TRUE",_RESULT)
 因此可透過檢查_SUCCESS來得知是否有轉換成功
 
 而字串轉換後的值會存入_RESULT
+
+## 字串長度
+
+KRL中字串由字元陣列組成，並在宣告時指定長度
+
+### 定義長度
+
+StrDeclLen方法可以回傳該字串定義時所指定的長度
+
+語法
+```
+DECL CHAR _MESSAGE[20]
+DECL INT _LENGTH
+
+_LENGTH = StrDeclLen(_MESSAGE[])
+```
+
+經過StrDeclLen所計算的長度(20)會存入_LENGTH中
+
+### 實際長度
+
+有些字串在宣告時可能直接宣告為最長(255)，因此取得該變數的宣告長度沒有意義
+
+要取得字串的實際長度要用StrLen這個方法
+
+語法
+```
+DECL INT _LENGTH
+
+_LENGTH = StrLen("How long is this String")
+```
+
+經過StrLen所計算的長度(23)會存入_LENGTH中
+
+## 尋找內容
+
+## 比對內容
