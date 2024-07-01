@@ -688,4 +688,33 @@ _LENGTH = StrLen("How long is this String")
 
 ## 尋找內容
 
+透過StrFind方法可以查詢某字串是否包含另一指定的子字串，並回傳該子字串在字串中的第幾個位置
+
+```
+DECL CHAR _SOURCE[50]
+DECL INT _RESULT_1,_RESULT_2,_RESULT_3,_RESULT_4,_RESULT_5
+
+_SOURCE[] = "ABCDE"
+
+_RESULT_1 = StrFind(1,_SOURCE[],"AC",#CASE_SENS)
+
+_RESULT_2 = StrFind(1,_SOURCE[],"a",#NOT_CASE_SENS)
+
+_RESULT_3 = StrFind(1,_SOURCE[],"BC",#CASE_SENS)
+
+_RESULT_4 = StrFind(1,_SOURCE[],"bc",#CASE_SENS)
+
+_RESULT_5 = StrFind(1,_SOURCE[],"bc",#NOT_CASE_SENS)
+```
+
+_RESULT_1的值是0，因為來源字串不包含"AC"
+
+_RESULT_2的值是1，因為在不區分大小寫的情況下，"a"在來源字串的第1個位置
+
+_RESULT_3的值是2，因為"BC"開頭的"B"在來源字串的第2個位置
+
+_RESULT_4的值是0，因為在區分大小寫的情況下，"bc"不存在於來源字串中
+
+_RESULT_5的值是2，因為在不區分大小寫的情況下，"bc"開頭的"b"在來源字串的第2個位置
+
 ## 比對內容
