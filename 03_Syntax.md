@@ -613,3 +613,42 @@ DEF MyModule
 
 END
 ```
+
+# 字串處理
+
+在KRL中處理字串不能像C#那樣直接轉換或比較，必須透過KUKA內建的方法來達成
+
+## 萬物轉String
+
+KRL中提供很多東西轉String的功能，其共通點都是StrTo要轉什麼東西
+
+下列整理一些可能常用的清單
+
+- StrToInt：字串轉整數
+- StrToReal：字串轉小數
+- StrToBool：字串轉布林
+- StrToFrame：字串轉FRAME(XYZABC)
+- StrToAxis：字串轉AXIS(A1~A6)
+- StrToE6Axis：字串轉E6AXIS(A1~A6,E1~E6)
+- StrToPos：字串轉POS(XYZABC)
+- StrToE6Pos：字串轉E6POS(XYZABC,E1~E6)
+
+
+### 方法
+
+使用StrToXXX必須代入兩個參數：來源字串、輸出資料
+
+該方法執行後會回傳BOOL資料，供使用者判斷是否有轉換成功
+
+語法（以StrToBool舉例）
+```
+DECL BOOL _SUCCESS,_RESULT
+
+_SUCCESS = StrToBool("TRUE",_RESULT)
+```
+
+上述語法中StrToBool執行轉換的結果(T/F)會存入）_SUCCESS中
+
+因此可透過檢查_SUCCESS來得知是否有轉換成功
+
+而字串轉換後的值會存入_RESULT
