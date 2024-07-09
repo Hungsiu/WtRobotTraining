@@ -121,6 +121,8 @@ ENDDAT
 
 陣列是由多個相同型態的資料依序排列後所產生的資料型態
 
+Array[]是指Array這一<span class="keyPoint">整個</span>陣列，Array[n]則是指在Array中<span class="keyPoint">第n個</span>元素
+
 語法：宣告
 
 ```
