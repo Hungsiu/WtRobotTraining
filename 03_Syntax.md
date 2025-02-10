@@ -503,7 +503,7 @@ INT _I,_COUNT
 _I = 1
 _COUNT = 1
 
-WHILE _I <= 10
+WHILE _I <= 100
     _COUNT = _COUNT * _I
     _I = _I + 1
 ENDWHILE
@@ -528,7 +528,7 @@ _COUNT = 1
 REPEAT
     _COUNT = _COUNT * _I
     _I = _I + 1
-UNTIL _I > 10
+UNTIL _I > 100
 ```
 
 ### LOOP
@@ -549,7 +549,7 @@ LOOP
     _COUNT = _COUNT * _I
     _I = _I + 1
 
-    IF _I > 10 THEN
+    IF _I > 100 THEN
         EXIT
     ENDIF
 ENDLOOP
