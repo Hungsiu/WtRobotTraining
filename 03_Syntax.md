@@ -620,7 +620,7 @@ END
 
 在KRL中處理字串不能像C#那樣直接轉換或比較，必須透過KUKA內建的方法來達成
 
-## 萬物轉String
+## String轉萬物
 
 KRL中提供很多東西轉String的功能，其共通點都是StrTo要轉什麼東西
 
